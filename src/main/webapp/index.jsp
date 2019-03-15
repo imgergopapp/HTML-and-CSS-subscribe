@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -12,7 +13,8 @@
 		<br>
 		<h2>Welcome.</h2>
 		<p>Have you ever wondered what would happen if you eat that
-			<a href="https://tinyurl.com/y5pzw6n4">last cookie from the jar</a> back in the 90's?</p>
+			<a href="https://tinyurl.com/y5pzw6n4">last cookie from the jar</a>
+		back in the 90's?</p>
 		<p>You ever felt like you wasted so many years trying to get a high score in Tetris?</p>
 		<h2>We got the solution.</h2>
 		<p>Try out our brand new Time Travel Service!</p>
@@ -49,7 +51,9 @@
 		</ol>
 		<form method="post" action="subscribe">
 	  		<input type="text" placeholder="Email address" name="email" pattern="[A-Za-z ]{1,32}" required>
-	  		<a href="login.html"><input type="submit" value="submit"></a>
+	  		<a href="index.jsp"><input type="submit" value="submit"></a>
 		</form>
+		<h2>Subscribed email address</h2>
+		<p>${emailAddress}</p>
 	</body>
 </html>
