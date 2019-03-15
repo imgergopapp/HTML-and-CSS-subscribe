@@ -50,7 +50,7 @@
 			<li>Clever</li>
 		</ol>
 		<form method="post" action="subscribe">
-	  		<input type="email" placeholder="Email address" name="email" pattern="[A-Za-z ]{1,32}" required>
+	  		<input type="email" placeholder="Email address" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
 	  		<a href="index.jsp"><input type="submit" value="submit"></a>
 		</form>
 		<h2>Subscribed email address</h2>
